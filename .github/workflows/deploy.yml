@@ -39,7 +39,7 @@ jobs:
       - name: Build cart
         run: npm run build
         env:
-          BASE_PATH: /mf-cart/
+          BASE_PATH: /module-federation-cart/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
