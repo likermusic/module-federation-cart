@@ -22,7 +22,7 @@ export default function Products() {
           <li key={product.id}>
             {product.name} — ${product.price}
             <button type="button" onClick={() => addToCart(product)}>
-              Add to cart ❤️
+              Add ITEM to cart ❤️
             </button>
           </li>
         ))}
